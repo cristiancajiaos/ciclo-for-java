@@ -1,20 +1,23 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
- */
 package ciclo.pkgfor;
 
-/**
- *
- * @author crist
- */
 public class CicloFor {
 
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String[] args) {
-        // TODO code application logic here
+        
+        // Primer ejemplo 
+        /*
+        for (int i = 1; i <= 10; i++) {
+            // Instrucciones
+            System.out.println("Número " + i);
+        }
+        */
+        
+        // Segundo ejemplo
+        int numeroBase = 2;
+        for (int i = 1; i <= 10; i++) {
+            System.out.println(numeroBase + " * " + i + " = " + (numeroBase * i));
+        }
+
     }
-    
+
 }
